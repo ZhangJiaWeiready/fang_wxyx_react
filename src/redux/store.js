@@ -1,0 +1,1 @@
+import {createStore,applyMiddleware} from 'redux'import {composeWithDevTools} from 'redux-devtools-extension'import thunk from 'redux-thunk'import reducers from './reducers'// thunk 解决redux只能发送同步请求// 应用上中间件export default createStore(reducers, composeWithDevTools(applyMiddleware(thunk)))

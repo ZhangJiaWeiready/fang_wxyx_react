@@ -1,0 +1,1 @@
+import React,{Component} from 'react'import {Link} from 'react-router-dom'import './loginFooter.styl'export default class LoginFooter extends Component{  render(){    return (      <div className='foot'>        <Link to='/login' className="changeLogin" >          <span>其他登录方式</span>        </Link>      </div>    )  }}

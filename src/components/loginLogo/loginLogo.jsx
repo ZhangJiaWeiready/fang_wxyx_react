@@ -1,0 +1,1 @@
+import React,{Component} from 'react'import './loginLogo.styl'export default class LoginLoo extends Component{  render() {    return (      <div className='logowrap'>        <section className='logo'>          <div className='logoImg'>            <img src={require('./images/logoSmall.png')} alt="logo" />          </div>        </section>      </div>    )  }}
